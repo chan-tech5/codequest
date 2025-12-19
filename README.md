@@ -1,73 +1,146 @@
-# Welcome to your Lovable project
+# 🚀 CodeQuest – Interactive Coding Learning Platform
 
-## Project info
+**CodeQuest** is an interactive, beginner-friendly coding learning platform inspired by [Codedex.io](https://codedex.io).  
+It helps users learn programming through **hands-on coding challenges**, **real-time code execution**, and **progress tracking**, all within a clean and modern web interface.  
+The platform emphasizes **learning by doing** rather than passive content consumption.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 🌐 Live Demo
+- **Live Application:** [Add your Lovable live URL here]  
+- **Demo Video (3–5 min):** [Add YouTube / Google Drive link here]
 
-There are several ways of editing your application.
+---
 
-**Use Lovable**
+## 🧠 Problem Statement
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+Many beginners struggle to learn programming due to:
+- Passive video-based learning.
+- Delayed or no feedback on code.
+- Complex local setup requirements.
+- Lack of structured progression.
 
-Changes made via Lovable will be committed automatically to this repo.
+**CodeQuest** addresses these issues by providing a **browser-based interactive learning environment** where users can write, run, and validate code instantly—without any installation.
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## ✨ Key Features
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- 🔐 **Secure user authentication** (Sign up / Sign in)
+- 📚 **Multiple structured courses:**
+  - Python  
+  - JavaScript  
+  - Data Structures
+- 🧩 **Lesson-based progression** with sequential unlocking
+- 💻 **In-browser code editor** with real-time code execution & validation
+- 📈 **Progress tracking** with completion indicators
+- 🚫 **Lesson access control** for non-logged-in users
+- 🌙 **Modern dark-theme UI**
 
-Follow these steps:
+---
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## 👥 Target Users
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+- Beginner programmers  
+- College students  
+- Self-learners entering tech  
+- Coding clubs and training institutes  
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🛠️ Technology Stack
 
-**Edit a file directly in GitHub**
+### Frontend
+- React  
+- Modern UI components  
+- Responsive design  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Backend & Database
+- **Lovable Cloud**  
+- **PostgreSQL** (database)  
+- **Built-in authentication**  
+- **Edge Functions** for backend logic and APIs  
 
-**Use GitHub Codespaces**
+### Platform & DevOps
+- Hosted on **Lovable Cloud**
+- Two-way GitHub sync
+- Fully cloud-deployed (no local setup required)
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🏗️ Architecture Overview
 
-This project is built with:
+- The **Frontend** communicates with **Backend APIs** via **Lovable Edge Functions**.  
+- **Authentication** and **user sessions** are handled by Lovable.  
+- **Course**, **lesson**, and **progress** data are stored in **PostgreSQL**.  
+- The entire codebase (**frontend + backend logic + schema**) is version-controlled using **GitHub integration**.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📸 Screenshots
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+(Add screenshots in the `/screenshots` folder and reference them here)
 
-## Can I connect a custom domain to my Lovable project?
+- **Landing Page**
+- **Courses Dashboard**
+- **Lesson Page with Code Editor**
+- **Progress Tracking View**
 
-Yes, you can!
+---
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+## ▶️ Demo Walkthrough
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+1. User signs up or logs in.  
+2. Selects a course (e.g., Python / JavaScript / Data Structures).  
+3. Opens a lesson.  
+4. Writes code in the embedded editor.  
+5. Runs code and receives instant feedback.  
+6. Progress is saved, and the next lesson unlocks.
+
+---
+
+## 🚧 Current Limitations
+
+- Focused on beginner-level content.  
+- Limited number of programming languages.  
+- No discussion forum or mentor interaction (yet).
+
+---
+
+## 🔮 Future Scope
+
+- Support for more languages (Java, C++, SQL).  
+- Gamification (XP, badges, leaderboards).  
+- AI-powered hints and feedback.  
+- Admin dashboard for creating courses.  
+- Mobile-optimized or native app version.
+
+---
+
+## 🏆 Hackathon Note
+
+To accelerate development and focus on product quality, **CodeQuest** uses **Lovable Cloud** for backend infrastructure — including authentication, database, and edge functions.  
+This approach enables **rapid prototyping** while maintaining **scalability and clean architecture**.
+
+---
+
+## 📂 GitHub Repository
+
+🔗 [https://github.com/chan-tech5/codequest](https://github.com/chan-tech5/codequest)
+
+---
+
+## 📌 How to Run Locally (Optional)
+
+The application is **fully cloud-hosted**.  
+No local setup is required for demo or evaluation.
+
+---
+
+## ✅ Final Status
+
+✔ Fully working platform  
+✔ Multiple complete courses  
+✔ Authentication & progress tracking  
+✔ Cloud backend  
+✔ Public GitHub repository
