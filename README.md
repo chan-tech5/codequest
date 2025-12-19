@@ -56,13 +56,13 @@ Many beginners struggle to learn programming due to:
 - Responsive design  
 
 ### Backend & Database
-- **Lovable Cloud**  
+- **Cloud**  
 - **PostgreSQL** (database)  
 - **Built-in authentication**  
 - **Edge Functions** for backend logic and APIs  
 
 ### Platform & DevOps
-- Hosted on **Lovable Cloud**
+- Hosted on **Cloud**
 - Two-way GitHub sync
 - Fully cloud-deployed (no local setup required)
 
@@ -70,8 +70,8 @@ Many beginners struggle to learn programming due to:
 
 ## 🏗️ Architecture Overview
 
-- The **Frontend** communicates with **Backend APIs** via **Lovable Edge Functions**.  
-- **Authentication** and **user sessions** are handled by Lovable.  
+- The **Frontend** communicates with **Backend APIs** via **Edge Functions**.  
+- **Authentication** and **user sessions** are handled.  
 - **Course**, **lesson**, and **progress** data are stored in **PostgreSQL**.  
 - The entire codebase (**frontend + backend logic + schema**) is version-controlled using **GitHub integration**.
 
@@ -119,7 +119,7 @@ Many beginners struggle to learn programming due to:
 
 ## 🏆 Hackathon Note
 
-To accelerate development and focus on product quality, **CodeQuest** uses **Lovable Cloud** for backend infrastructure — including authentication, database, and edge functions.  
+To accelerate development and focus on product quality, **CodeQuest** uses **Cloud** for backend infrastructure — including authentication, database, and edge functions.  
 This approach enables **rapid prototyping** while maintaining **scalability and clean architecture**.
 
 ---
