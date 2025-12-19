@@ -7,8 +7,8 @@ The platform emphasizes **learning by doing** rather than passive content consum
 ---
 
 ## 🌐 Live Demo
-- **Live Application:** [Add your Lovable live URL here]  
-- **Demo Video (3–5 min):** [Add YouTube / Google Drive link here]
+- **Live Application:** [https://hackathon-coder-lab.lovable.app](https://hackathon-coder-lab.lovable.app)
+- **Demo Video (3–5 min):** [https://drive.google.com/file/d/1Qwp6TtcBrjEBQ70t04lALATLWQ6IacsC/view?usp=sharing](https://drive.google.com/file/d/1Qwp6TtcBrjEBQ70t04lALATLWQ6IacsC/view?usp=sharing)
 
 ---
 
